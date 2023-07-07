@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <meta name="description" content="Daina's first web page" />
+    <meta name="author" content="Daina" />
+    <script defer src="script.js"></script>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <!--projects page not linking!-->
+    <title>Daina's homepage</title>
+  </head>
+
+  <body>
+    <header>
+      <!--add an image for background and a small logo for my page-->
+      <h1>Welcome to <span>Daina's </span>webpage!</h1>
+    </header>
+    <nav>
+      <ul>
+        <li>
+          <img src="./assets/icon/icons8-home-64.png" class="nav-icons" /><a
+            href="#home"
+            >Home</a
+          >
+        </li>
+        <li>
+          <img src="./assets/icon/icons8-about-64.png" class="nav-icons" /><a
+            href="#about_me"
+            >About Me</a
+          >
+        </li>
+        <li>
+          <img src="./assets/icon/icons8-picture-64.png" class="nav-icons" /><a
+            href="#projects"
+            >Projects</a
+          >
+        </li>
+        <li>
+          <img src="./assets/icon/icons8-contacts-64.png" class="nav-icons" /><a
+            href="#contact"
+            >Contact</a
+          >
+        </li>
+      </ul>
+      <!--add a navbar for: about me, contacts, project, and exprience -->
+    </nav>
+    <main>
+      <section class="about_me">
+        <h2>Hi! My name is <span>Daina Ulmer</span>.</h2>
+        <!--Add pic of me-->
+        <img src="" alt="Picture of Me smiling" />
+        <p>
+          I am a Web Developer, age 28, live in Rosenberg, Texas. I have just
+          started learning Web Development on Google Coursera in 2023. I love it
+          a lot and I can't to learn more about it! I hope to get my first job
+          as a Web Developer!
+        </p>
+        <br />
+        <p>
+          <a type="Download" href="./assets/other/Daina's Resume 2023.docx"
+            >Download my resume here!</a
+          >
+        </p>
+      </section>
+      <section class="projects">
+        <figure>
+          <img
+            src="./assets/screenshots/Screenshot-Lucky Shrub.png"
+            width="400px"
+            height="400px"
+            alt="Picture of my first project"
+          />
+          <figcaption>Lucky Shrub from Coursera</figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="Picture of my Second project" />
+          <figcaption>Second project of:</figcaption>
+        </figure>
+        <figure>
+          <img src="" alt="Picture of my Third project" />
+          <figcaption>Third project of:</figcaption>
+        </figure>
+      </section>
+      <section class="contact_me">
+        <form action="results.html" method="GET">
+          <fieldset class="contact-box">
+            <legend id="contact">Contact Me</legend>
+            <label for="name"
+              >Name:
+              <input
+                type="text"
+                id="name"
+                name="contact_info"
+                placeholder="&#10032;Cool name&#10032;"
+                required
+              />
+            </label>
+            <br />
+            <label for="email"
+              >Email:
+              <input
+                type="email"
+                id="email"
+                name="contact_info"
+                placeholder="❖Email me"
+                required
+              />
+            </label>
+            <br />
+            <label for="message">
+              <textarea
+                id="message"
+                name="message"
+                placeholder="&#10084;Message me please!&#10084;"
+              ></textarea>
+            </label>
+            <br />
+            <button type="submit">Send</button>
+          </fieldset>
+        </form>
+      </section>
+    </main>
+    <footer>
+      <div>
+        <a href="https://github.com/DainaU">Github</a>
+        <a href="https://twitter.com/Daina_Ulmer">Twitter</a>
+        <a href="https://www.linkedin.com/in/daina-ulmer-0777a5185/"
+          >Linkedin</a
+        >
+      </div>
+      <p>Created by <span>Daina Ulmer</span>.</p>
+      <a target="_blank" href="https://icons8.com/icon/44013/home">Home</a> icon
+      by <a target="_blank" href="https://icons8.com">Icons8</a>
+      <a target="_blank" href="https://icons8.com/icon/43969/about">About</a>
+      icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+      <a target="_blank" href="https://icons8.com/icon/44035/picture"
+        >Picture</a
+      >
+      icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+      <a target="_blank" href="https://icons8.com/icon/43993/contacts"
+        >Contacts</a
+      >
+      icon by <a target="_blank" href="https://icons8.com">Icons8</a>
+      <!--add icons for: github, twitter, linkedin and my page and contacts-->
+    </footer>
+    <script src="./index.js"></script>
+  </body>
+</html>
